@@ -1,12 +1,14 @@
-# hugolify-theme-awards
+# hugolify-example-blocks
+
+Add `/design-system/` pages.
 
 ## Install
 
-Edit `config/_default/module.yaml` to install the `hugolify-theme-awards` module:
+Edit `config/_default/module.yaml` to install the `hugolify-example-blocks` module:
 
 ```yml
 imports:
-  - path: github.com/hugolify/hugolify-theme-awards/v2
+  - path: github.com/hugolify/hugolify-example-blocks
   - path: github.com/hugolify/hugolify-theme/v2 # required
 ```
 
