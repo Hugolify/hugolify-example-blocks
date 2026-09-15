@@ -31,6 +31,64 @@ blocks:
       nibh erat, eget interdum nisi auctor eget.
   - type: alert
     ui:
+      grid: container
+    heading:
+      surtitle: Grid container / State light / With title
+    state: light
+    title: Nullam in felis eget enim tincidunt vehicula.
+    text:
+      Duis nisl odio, blandit vel quam eget, **blandit dapibus erat**. Nullam
+      pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum
+      nibh erat, eget interdum nisi auctor eget.
+  - type: alert
+    ui:
+      grid: container
+    heading:
+      surtitle: Grid container / State info / With icon
+    state: info
+    icon: info
+    text:
+      Duis nisl odio, blandit vel quam eget, **blandit dapibus erat**. Nullam
+      pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum
+      nibh erat, eget interdum nisi auctor eget.
+  - type: alert
+    ui:
+      grid: container
+    heading:
+      surtitle: Grid container / State warning / With title and icon
+    state: warning
+    title: Nullam in felis eget enim tincidunt vehicula.
+    icon: triangle-alert
+    text:
+      Duis nisl odio, blandit vel quam eget, **blandit dapibus erat**. Nullam
+      pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum
+      nibh erat, eget interdum nisi auctor eget.
+  - type: alert
+    ui:
+      grid: container
+    heading:
+      surtitle: Grid container / State danger / With title and icon
+    state: danger
+    title: Nullam in felis eget enim tincidunt vehicula.
+    icon: octagon-alert
+    text:
+      Duis nisl odio, blandit vel quam eget, **blandit dapibus erat**. Nullam
+      pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum
+      nibh erat, eget interdum nisi auctor eget.
+  - type: alert
+    ui:
+      grid: container
+    heading:
+      surtitle: Grid container / State success / With title and icon
+    state: success
+    title: Nullam in felis eget enim tincidunt vehicula.
+    icon: circle-check
+    text:
+      Duis nisl odio, blandit vel quam eget, **blandit dapibus erat**. Nullam
+      pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum
+      nibh erat, eget interdum nisi auctor eget.
+  - type: alert
+    ui:
       grid: small
       offset: center
       align: center

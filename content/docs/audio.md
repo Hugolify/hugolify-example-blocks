@@ -19,12 +19,36 @@ hero:
 blocks:
   - type: audio
     ui:
-      grid: container
+      grid: large
+      offset: center
+      align: start
     heading:
-      surtitle: Grid container / Without transcription
+      surtitle: Grid container / Offset center / align center / Without transcription
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     audio:
       mp3: /audios/t-rex-roar.mp3
+  - type: audio
+    ui:
+      grid: large
+      offset: center
+      align: center
+    heading:
+      surtitle: Grid large / Offset center / align center / Without transcription
+      title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    audio:
+      mp3: /audios/t-rex-roar.mp3
+  - type: audio
+    ui:
+      grid: large
+      offset: center
+      align: end
+    heading:
+      surtitle: Grid container / Offset center / align center / Without transcription
+      title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    audio:
+      mp3: /audios/t-rex-roar.mp3
+
+  # Transcription
   - type: audio
     ui:
       grid: container
@@ -40,6 +64,40 @@ blocks:
         sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
         semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
         nec iaculis lorem.
+  - type: audio
+    ui:
+      grid: container
+      align: center
+    heading:
+      surtitle: Grid container / align center / With transcription
+      title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    audio:
+      mp3: /audios/t-rex-roar.mp3
+      transcription: >-
+        Curabitur nec ipsum sit amet tellus *sagittis* blandit. Nulla massa nibh,
+        cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
+        lectus ut **ligula elementum**, ac commodo tortor rhoncus. Vivamus
+        sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
+        semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
+        nec iaculis lorem.
+  - type: audio
+    ui:
+      grid: container
+      align: end
+    heading:
+      surtitle: Grid container / align end / With transcription
+      title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    audio:
+      mp3: /audios/t-rex-roar.mp3
+      transcription: >-
+        Curabitur nec ipsum sit amet tellus *sagittis* blandit. Nulla massa nibh,
+        cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
+        lectus ut **ligula elementum**, ac commodo tortor rhoncus. Vivamus
+        sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
+        semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
+        nec iaculis lorem.
+
+
   - type: audio
     ui:
       grid: container
