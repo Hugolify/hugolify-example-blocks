@@ -1,0 +1,18 @@
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: layouts
+      target: layouts
+  imports:
+    - path: github.com/hugolify/hugolify-theme-docs/v2
+
+permalinks:
+  page:
+    docs: /design-system/:sections[1:]/:slug/
+  section:
+    docs: /design-system/:sections[1:]/
+
+params:
+  docs:
+    sidebarmenu: false
