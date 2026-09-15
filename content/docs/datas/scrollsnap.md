@@ -4,9 +4,6 @@ draft: false
 title: Scrollsnap
 description: Datas grid turning into a horizontal scroll-snap carousel below a breakpoint.
 icon: move-horizontal
-status:
-  state: warning
-  text: Needs ui.scrollsnap wired through func/GetBlockUI
 hero:
   surtitle: Blocks datas
   title: Layout scrollsnap
