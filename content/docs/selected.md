@@ -2,12 +2,12 @@
 isPage: true
 draft: false
 title: Selected
-description: Add selected items section (posts, projects, publications, casestudies…)
+description: Add selected items section (posts, expertises, publications…)
 icon: check-check
 hero:
   surtitle: Blocks
   title: Selected sections
-  text: Add selected items section (posts, projects, publications, casestudies…).
+  text: Add selected items section (posts, posts, expertises, publications…).
   ctas:
     - text: Documentation
       url: https://www.hugolify.io/docs/blocks/selected/
