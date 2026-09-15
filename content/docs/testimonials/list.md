@@ -16,6 +16,8 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/testimonials/list.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: testimonials
     ui:

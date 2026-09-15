@@ -16,4 +16,6 @@ hero:
       url: https://github.com/Hugolify/hugolify-example-blocks/tree/main/content/docs/informations
       blank: true
       link: true
+  ui:
+    theme: light
 ---

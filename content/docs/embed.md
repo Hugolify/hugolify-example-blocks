@@ -16,11 +16,37 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/embed.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: embed
     ui:
       grid: small
+      offset: start
+    embed: <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/2ZwhZWL56t0" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    heading:
+      surtitle: Grid small / Offset center / YouTube
+      title: Embed from youtube
+      text: Mauris lobortis pulvinar lectus at semper.
+  - type: embed
+    ui:
+      grid: small
       offset: center
+    embed: <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/2ZwhZWL56t0" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    heading:
+      surtitle: Grid small / Offset center / YouTube
+      title: Embed from youtube
+      text: Mauris lobortis pulvinar lectus at semper.
+  - type: embed
+    ui:
+      grid: small
+      offset: end
     embed: <iframe width="560" height="315"
       src="https://www.youtube.com/embed/2ZwhZWL56t0" title="YouTube video
       player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;

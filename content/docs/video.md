@@ -16,10 +16,13 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/video.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: video
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -33,6 +36,7 @@ blocks:
   - type: video
     ui:
       grid: medium
+      offset: center
     heading:
       surtitle: Grid medium
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.

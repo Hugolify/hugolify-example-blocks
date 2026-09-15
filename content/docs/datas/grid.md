@@ -16,6 +16,8 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/datas/grid.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: datas
     ui:
@@ -115,6 +117,7 @@ blocks:
   - type: datas
     ui:
       grid: large
+      offset: center
       column: 3
       theme: accent
     heading:

@@ -16,11 +16,14 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/chart.md
       blank: true
       link: true
+  ui:
+    theme: light
 
 blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small / Type pie
       title: Chart pie example
@@ -43,6 +46,7 @@ blocks:
   - type: chart
     ui:
       grid: medium
+      offset: center
     heading:
       surtitle: Grid medium / Type bar
       title: Chart bar example
@@ -65,6 +69,7 @@ blocks:
   - type: chart
     ui:
       grid: large
+      offset: center
     heading:
       surtitle: Grid large / Type line
       title: Chart line example
@@ -87,6 +92,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small / Type doughnut
       title: Chart doughnut example
@@ -109,6 +115,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small / Type polarArea
       title: Chart polarArea example
@@ -131,6 +138,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small / Type radar / Custom colors
       title: Chart radar example
@@ -155,6 +163,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small / Type polarArea / JSON data
       title: Chart polarArea example
@@ -214,6 +223,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
     heading:
       surtitle: Grid small / Type radar / JSON data
       title: Chart radar example
@@ -259,6 +269,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: light
     heading:
       surtitle: Grid small / Type pie / Theme light
@@ -283,6 +294,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: highlight
     heading:
       surtitle: Grid small / Type pie / Theme highlight
@@ -307,6 +319,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: accent
     heading:
       surtitle: Grid small / Type pie / Theme accent
@@ -331,6 +344,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: dark
     heading:
       surtitle: Grid small / Type pie / Theme dark
@@ -355,6 +369,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: neutral
     heading:
       surtitle: Grid small / Type pie / Theme neutral
@@ -379,6 +394,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: black
     heading:
       surtitle: Grid small / Type pie / Theme black
@@ -403,6 +419,7 @@ blocks:
   - type: chart
     ui:
       grid: small
+      offset: center
       theme: white
     heading:
       surtitle: Grid small / Type pie / Theme white

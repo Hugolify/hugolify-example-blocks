@@ -16,6 +16,8 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/map.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: map
     ui:
@@ -44,6 +46,7 @@ blocks:
   - type: map
     ui:
       grid: small
+      offset: center
     location: '{"type":"Point","coordinates":[-0.5737107,44.8425666]}'
     zoom: 14
     heading:
@@ -57,6 +60,7 @@ blocks:
   - type: map
     ui:
       grid: medium
+      offset: center
     location: '{"type":"Point","coordinates":[-0.5737107,44.8425666]}'
     zoom: 14
     heading:
@@ -70,6 +74,7 @@ blocks:
   - type: map
     ui:
       grid: large
+      offset: center
     location: '{"type":"Point","coordinates":[-0.5737107,44.8425666]}'
     zoom: 14
     heading:

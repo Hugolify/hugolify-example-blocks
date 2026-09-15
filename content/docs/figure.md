@@ -16,10 +16,13 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/figure.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: figure
     ui:
       grid: small
+      offset: start
     heading:
       surtitle: Grid small
     figure:
@@ -49,6 +52,7 @@ blocks:
   - type: figure
     ui:
       grid: medium
+      offset: center
     heading:
       surtitle: Grid medium
     figure:
@@ -58,6 +62,7 @@ blocks:
   - type: figure
     ui:
       grid: large
+      offset: center
     heading:
       surtitle: Grid large
     figure:
@@ -99,6 +104,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: light
     heading:
       surtitle: Grid small / Theme light
@@ -110,6 +116,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: highlight
     heading:
       surtitle: Grid small / Theme highlight
@@ -121,6 +128,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: accent
     heading:
       surtitle: Grid small / Theme accent
@@ -132,6 +140,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: dark
     heading:
       surtitle: Grid small / Theme dark
@@ -143,6 +152,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: neutral
     heading:
       surtitle: Grid small / Theme neutral
@@ -154,6 +164,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: black
     heading:
       surtitle: Grid small / Theme black
@@ -165,6 +176,7 @@ blocks:
   - type: figure
     ui:
       grid: small
+      offset: center
       theme: white
     heading:
       surtitle: Grid small / Theme white

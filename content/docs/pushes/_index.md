@@ -18,4 +18,6 @@ hero:
       url: https://github.com/Hugolify/hugolify-example-blocks/tree/main/content/docs/pushes
       blank: true
       link: true
+  ui:
+    theme: light
 ---

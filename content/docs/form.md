@@ -16,6 +16,8 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-blocks/refs/heads/main/content/docs/form.md
       blank: true
       link: true
+  ui:
+    theme: light
 blocks:
   - type: form
     ui:
