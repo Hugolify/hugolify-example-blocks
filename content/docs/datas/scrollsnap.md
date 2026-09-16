@@ -25,6 +25,7 @@ blocks:
       scrollsnap:
         breakpoint: all
         nav: pointer
+        pagination: pointer
       grid: container
     heading:
       surtitle: Grid container / Scrollsnap all / nav pointer / Without gauges
@@ -875,6 +876,7 @@ blocks:
       scrollsnap:
         breakpoint: all
         nav: pointer
+        pagination: pointer
       grid: container
       theme: light
     heading:
@@ -968,6 +970,7 @@ blocks:
       scrollsnap:
         breakpoint: all
         nav: pointer
+        pagination: pointer
       grid: container
       theme: neutral
     heading:
@@ -1061,6 +1064,7 @@ blocks:
       scrollsnap:
         breakpoint: all
         nav: pointer
+        pagination: pointer
       grid: container
       theme: dark
     heading:
@@ -1154,6 +1158,7 @@ blocks:
       scrollsnap:
         breakpoint: all
         nav: pointer
+        pagination: pointer
       grid: container
       theme: black
     heading:
