@@ -193,61 +193,6 @@ blocks:
     ui:
       grid: container
       column: 3
-      scrollsnap: false
-    heading:
-      surtitle: Grid container / Column 3 / Breakpoint none
-      title: Lorem ipsum dolor sit amet.
-      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
-    items:
-      - ui:
-          card: true
-          offset: start
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - ui:
-          card: true
-          offset: start
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - ui:
-          card: true
-          offset: start
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - ui:
-          card: true
-          offset: start
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
-  - type: pushes
-    ui:
-      grid: container
-      column: 3
       theme: light
       scrollsnap: md
     heading:

@@ -85,25 +85,6 @@ blocks:
     ui:
       grid: container
       column: 3
-      scrollsnap: false
-    heading:
-      surtitle: Grid container / Column 3 / Breakpoint none
-      title: Lorem ipsum dolor sit amet.
-      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
-    items:
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-      - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
-
-  - type: logos
-    ui:
-      grid: container
-      column: 3
       theme: light
       scrollsnap: md
     heading:

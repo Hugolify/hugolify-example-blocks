@@ -53,15 +53,6 @@ blocks:
       text: "Object form, front matter only: the CMS never writes pagination. Set that site-wide instead with `blocks.latest.scrollsnap.pagination` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
   - type: latest
     ui:
-      scrollsnap: false
-      grid: container
-    section: posts
-    heading:
-      surtitle: Grid container / Posts / Breakpoint none
-
-      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
-  - type: latest
-    ui:
       theme: light
       scrollsnap: md
       grid: container

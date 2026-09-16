@@ -25,11 +25,102 @@ blocks:
       scrollsnap:
         breakpoint: all
         nav: pointer
-      grid: medium
-      offset: center
-      column: 4
+      grid: container
     heading:
-      surtitle: Grid medium / Column 4 / Scrollsnap all / nav pointer / Without gauges
+      surtitle: Grid container / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: large
+      offset: center
+    heading:
+      surtitle: Grid large / Scrollsnap all / nav pointer / Without gauges
       title: Maecenas semper urna enim
       text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
@@ -105,36 +196,168 @@ blocks:
 
   - type: datas
     ui:
-      scrollsnap: md
-      grid: container
-      column: 3
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: medium
+      offset: center
     heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand)
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
+      surtitle: Grid medium / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
       - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
         title: Faucibus
-        value: 90
-        prefix: ''
-        suffix: '%'
-        limit: 100
-      - value: 45
+        value: 900
+      - value: 20000
         title: Quisque consectetur
         text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
           fringilla nunc.
-        suffix: '%'
-        limit: 100
-      - value: 66
+      - value: 3.5
         title: Morbi placerat erat
         text:
           Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
           porta sapien eu tellus ornare tincidunt.
         limit: 100
-        suffix: '%'
-    show_color: true
-    show_gauge: true
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
 
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: small
+      offset: center
+    heading:
+      surtitle: Grid small / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+    
   - type: datas
     ui:
       scrollsnap:
@@ -208,15 +431,16 @@ blocks:
     show_color: true
     show_gauge: true
 
+  # breakpoints
   - type: datas
     ui:
       scrollsnap:
-        breakpoint: lg
+        breakpoint: sm
         pagination: pointer
       grid: container
       column: 3
     heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint lg / Pagination pointer
+      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint sm / Pagination pointer
       title: With gauge and automatic color
       text: "Object form, front matter only: the CMS never writes pagination. Set that site-wide instead with `blocks.datas.scrollsnap.pagination` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
@@ -239,19 +463,6 @@ blocks:
           porta sapien eu tellus ornare tincidunt.
         limit: 100
         suffix: '%'
-    show_color: true
-    show_gauge: true
-
-  - type: datas
-    ui:
-      scrollsnap: false
-      grid: container
-      column: 3
-    heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint none
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
-    items:
       - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
         title: Faucibus
         value: 90
@@ -276,73 +487,6 @@ blocks:
 
   - type: datas
     ui:
-      theme: light
-      scrollsnap: md
-      grid: container
-      column: 3
-    heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand) / Theme light
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
-    items:
-      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
-        title: Faucibus
-        value: 90
-        prefix: ''
-        suffix: '%'
-        limit: 100
-      - value: 45
-        title: Quisque consectetur
-        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
-          fringilla nunc.
-        suffix: '%'
-        limit: 100
-      - value: 66
-        title: Morbi placerat erat
-        text:
-          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
-          porta sapien eu tellus ornare tincidunt.
-        limit: 100
-        suffix: '%'
-    show_color: true
-    show_gauge: true
-
-  - type: datas
-    ui:
-      theme: highlight
-      scrollsnap: md
-      grid: container
-      column: 3
-    heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand) / Theme highlight
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
-    items:
-      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
-        title: Faucibus
-        value: 90
-        prefix: ''
-        suffix: '%'
-        limit: 100
-      - value: 45
-        title: Quisque consectetur
-        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
-          fringilla nunc.
-        suffix: '%'
-        limit: 100
-      - value: 66
-        title: Morbi placerat erat
-        text:
-          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
-          porta sapien eu tellus ornare tincidunt.
-        limit: 100
-        suffix: '%'
-    show_color: true
-    show_gauge: true
-
-  - type: datas
-    ui:
-      theme: accent
       scrollsnap: md
       grid: container
       column: 3
@@ -370,20 +514,6 @@ blocks:
           porta sapien eu tellus ornare tincidunt.
         limit: 100
         suffix: '%'
-    show_color: true
-    show_gauge: true
-
-  - type: datas
-    ui:
-      theme: dark
-      scrollsnap: md
-      grid: container
-      column: 3
-    heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand) / Theme dark
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
-    items:
       - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
         title: Faucibus
         value: 90
@@ -408,12 +538,11 @@ blocks:
 
   - type: datas
     ui:
-      theme: neutral
-      scrollsnap: md
+      scrollsnap: lg
       grid: container
       column: 3
     heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand) / Theme neutral
+      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint lg (shorthand)
       title: With gauge and automatic color
       text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
@@ -436,20 +565,6 @@ blocks:
           porta sapien eu tellus ornare tincidunt.
         limit: 100
         suffix: '%'
-    show_color: true
-    show_gauge: true
-
-  - type: datas
-    ui:
-      theme: black
-      scrollsnap: md
-      grid: container
-      column: 3
-    heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand) / Theme black
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
-    items:
       - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
         title: Faucibus
         value: 90
@@ -471,37 +586,659 @@ blocks:
         suffix: '%'
     show_color: true
     show_gauge: true
+ 
+  # theme
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+        pagination: pointer
+      grid: container
+      theme: accent
+    heading:
+      surtitle: Grid container / Scrollsnap all / nav pointer / Pagination pointer / Theme accent
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
 
   - type: datas
     ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+        pagination: pointer
+      grid: container
+      theme: highlight
+    heading:
+      surtitle: Grid container / Scrollsnap all / Nav pointer / Pagination pointer / Theme highlight
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+        pagination: pointer
+      grid: container
       theme: white
-      scrollsnap: md
-      grid: container
-      column: 3
     heading:
-      surtitle: Grid container / Column 3 / Gauge / Color / Breakpoint md (shorthand) / Theme white
-      title: With gauge and automatic color
-      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
+      surtitle: Grid container / Scrollsnap all / Nav pointer / Pagination pointer / Theme white
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
       - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
         title: Faucibus
-        value: 90
-        prefix: ''
-        suffix: '%'
-        limit: 100
-      - value: 45
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
         title: Quisque consectetur
         text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
           fringilla nunc.
-        suffix: '%'
-        limit: 100
-      - value: 66
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
         title: Morbi placerat erat
         text:
           Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
           porta sapien eu tellus ornare tincidunt.
         limit: 100
-        suffix: '%'
-    show_color: true
-    show_gauge: true
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: container
+      theme: light
+    heading:
+      surtitle: Grid container / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: container
+      theme: neutral
+    heading:
+      surtitle: Grid container / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: container
+      theme: dark
+    heading:
+      surtitle: Grid container / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
+
+  - type: datas
+    ui:
+      scrollsnap:
+        breakpoint: all
+        nav: pointer
+      grid: container
+      theme: black
+    heading:
+      surtitle: Grid container / Scrollsnap all / nav pointer / Without gauges
+      title: Maecenas semper urna enim
+      text: "Object form, front matter only: the CMS never writes nav. Set that site-wide instead with `blocks.datas.scrollsnap.nav` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
+    items:
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          link: true
+      - value: 20000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+          blank: true
+          link: true
+      - value: 3.5
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        cta:
+          text: Lorem ipsum
+          url: '#'
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 90
+        prefix: '+'
+        suffix: '€'
+      - value: 200
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+      - text: Maecenas semper urna enim, viverra faucibus tellus bibendum sed
+        title: Faucibus
+        value: 900
+        prefix: '+'
+        suffix: '€'
+        limit: 1000
+      - value: 2000
+        title: Quisque consectetur
+        text: Mauris convallis ante eu nisl iaculis efficitur. Pellentesque vel
+          fringilla nunc.
+        limit: 250000
+      - value: 3.5
+        suffix: 'K'
+        prefix: '$'
+        title: Morbi placerat erat
+        text:
+          Proin sagittis faucibus tortor, rutrum facilisis erat volutpat ut. Etiam
+          porta sapien eu tellus ornare tincidunt.
+        limit: 100
+    show_color: false
+    show_gauge: false
 ---

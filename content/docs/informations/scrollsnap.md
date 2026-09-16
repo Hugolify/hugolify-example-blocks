@@ -95,29 +95,6 @@ blocks:
 
   - type: informations
     ui:
-      scrollsnap: false
-      grid: container
-      column: 4
-    heading:
-      surtitle: Grid container / Column 4 / With icons / Breakpoint none
-      title: 4 columns with icons
-      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
-    items:
-      - title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        icon: cloud-rain
-      - text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
-        title: Faucibus maximus nunc
-        icon: cloud-sun
-      - title: Aliquam velit magna
-        text: Donec ut eros sit amet ipsum pulvinar sagittis.
-        icon: cloudy
-      - title: Curabitur non ante purus
-        text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
-        icon: sun
-
-  - type: informations
-    ui:
       theme: light
       scrollsnap: md
       grid: container
