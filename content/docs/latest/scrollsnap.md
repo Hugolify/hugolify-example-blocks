@@ -27,6 +27,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand)
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       scrollsnap:
@@ -38,6 +39,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint all / Nav pointer / Pagination true
 
+      text: "Object form, front matter only: the CMS never writes nav nor pagination. Set that site-wide instead with `blocks.latest.scrollsnap.nav` (pointer) and `blocks.latest.scrollsnap.pagination` (true) — each key is read on its own, so a block keeps overriding its breakpoint alone."
   - type: latest
     ui:
       scrollsnap:
@@ -48,6 +50,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint lg / Pagination pointer
 
+      text: "Object form, front matter only: the CMS never writes pagination. Set that site-wide instead with `blocks.latest.scrollsnap.pagination` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
   - type: latest
     ui:
       scrollsnap: false
@@ -56,6 +59,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint none
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
   - type: latest
     ui:
       theme: light
@@ -65,6 +69,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme light
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       theme: highlight
@@ -74,6 +79,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme highlight
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       theme: accent
@@ -83,6 +89,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme accent
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       theme: dark
@@ -92,6 +99,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme dark
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       theme: neutral
@@ -101,6 +109,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme neutral
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       theme: black
@@ -110,6 +119,7 @@ blocks:
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme black
 
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
       theme: white
@@ -118,4 +128,5 @@ blocks:
     section: posts
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme white
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
 ---

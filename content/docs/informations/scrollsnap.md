@@ -27,7 +27,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand)
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -53,7 +53,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint all / Nav pointer / Pagination true
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Object form, front matter only: the CMS never writes nav nor pagination. Set that site-wide instead with `blocks.informations.scrollsnap.nav` (pointer) and `blocks.informations.scrollsnap.pagination` (true) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -78,7 +78,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint lg / Pagination pointer
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Object form, front matter only: the CMS never writes pagination. Set that site-wide instead with `blocks.informations.scrollsnap.pagination` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -101,7 +101,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint none
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -125,7 +125,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme light
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -149,7 +149,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme highlight
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -173,7 +173,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme accent
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -197,7 +197,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme dark
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -221,7 +221,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme neutral
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -245,7 +245,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme black
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -269,7 +269,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / With icons / Breakpoint md (shorthand) / Theme white
       title: 4 columns with icons
-      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.

@@ -27,7 +27,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand)
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -49,7 +49,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint all / Nav pointer / Pagination true
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Object form, front matter only: the CMS never writes nav nor pagination. Set that site-wide instead with `blocks.logos.scrollsnap.nav` (pointer) and `blocks.logos.scrollsnap.pagination` (true) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -70,7 +70,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 4 / Breakpoint lg / Pagination pointer
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Object form, front matter only: the CMS never writes pagination. Set that site-wide instead with `blocks.logos.scrollsnap.pagination` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -89,7 +89,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint none
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -109,7 +109,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme light
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -129,7 +129,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme highlight
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -149,7 +149,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme accent
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -169,7 +169,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme dark
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -189,7 +189,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme neutral
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -209,7 +209,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme black
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
@@ -229,7 +229,7 @@ blocks:
     heading:
       surtitle: Grid container / Column 3 / Breakpoint md (shorthand) / Theme white
       title: Lorem ipsum dolor sit amet.
-      text: Mauris lobortis pulvinar lectus at semper.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items:
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg
       - src: https://res.cloudinary.com/uncinq/image/upload/v1782295060/logo-black_e1lfvo.svg

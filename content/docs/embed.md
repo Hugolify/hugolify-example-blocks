@@ -28,7 +28,7 @@ blocks:
       player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     heading:
-      surtitle: Grid small / Offset center / YouTube
+      surtitle: Grid small / Offset start / YouTube
       title: Embed from youtube
       text: Mauris lobortis pulvinar lectus at semper.
   - type: embed
@@ -52,7 +52,7 @@ blocks:
       player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
       encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     heading:
-      surtitle: Grid small / Offset center / YouTube
+      surtitle: Grid small / Offset end / YouTube
       title: Embed from youtube
       text: Mauris lobortis pulvinar lectus at semper.
   - type: embed

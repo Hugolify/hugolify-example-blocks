@@ -140,7 +140,7 @@ blocks:
       grid: large
       offset: center
       theme: light
-    surtitle: Grid large / Offset center / theme light
+    surtitle: Grid large / Offset center / Theme light
     title: Quisque eget magna nec nunc scelerisque posuere nec at eros.
     text: >-
       Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
@@ -176,7 +176,7 @@ blocks:
       grid: large
       offset: center
       theme: highlight
-    surtitle: Grid large / Offset center / theme highlight
+    surtitle: Grid large / Offset center / Theme highlight
     title: Quisque eget magna nec nunc scelerisque posuere nec at eros.
     text: >-
       Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
@@ -268,7 +268,7 @@ blocks:
       grid: large
       offset: center
       theme: dark
-    surtitle: Grid large / Offset center / theme light / Theme dark
+    surtitle: Grid large / Offset center / Theme dark
     title: Quisque eget magna nec nunc scelerisque posuere nec at eros.
     text: >-
       Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
@@ -295,7 +295,7 @@ blocks:
       grid: large
       offset: center
       theme: neutral
-    surtitle: Grid large / Offset center / theme light / Theme neutral
+    surtitle: Grid large / Offset center / Theme neutral
     title: Quisque eget magna nec nunc scelerisque posuere nec at eros.
     text: >-
       Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
@@ -322,7 +322,7 @@ blocks:
       grid: large
       offset: center
       theme: black
-    surtitle: Grid large / Offset center / theme light / Theme black
+    surtitle: Grid large / Offset center / Theme black
     title: Quisque eget magna nec nunc scelerisque posuere nec at eros.
     text: >-
       Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
@@ -349,7 +349,7 @@ blocks:
       grid: large
       offset: center
       theme: white
-    surtitle: Grid large / Offset center / theme light / Theme white
+    surtitle: Grid large / Offset center / Theme white
     title: Quisque eget magna nec nunc scelerisque posuere nec at eros.
     text: >-
       Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla

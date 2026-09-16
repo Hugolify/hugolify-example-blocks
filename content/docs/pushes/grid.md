@@ -532,7 +532,7 @@ blocks:
     ui:
       grid: container
     heading:
-      surtitle: Grid container 
+      surtitle: Grid container
       title: Lorem ipsum dolor sit amet.
       text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
     items:

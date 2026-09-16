@@ -25,7 +25,7 @@ blocks:
       offset: center
       align: start
     heading:
-      surtitle: Grid container / Offset center / align center / Without transcription
+      surtitle: Grid large / Offset center / Align start / Without transcription
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     audio:
       mp3: /audios/t-rex-roar.mp3
@@ -35,7 +35,7 @@ blocks:
       offset: center
       align: center
     heading:
-      surtitle: Grid large / Offset center / align center / Without transcription
+      surtitle: Grid large / Offset center / Align center / Without transcription
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     audio:
       mp3: /audios/t-rex-roar.mp3
@@ -45,7 +45,7 @@ blocks:
       offset: center
       align: end
     heading:
-      surtitle: Grid container / Offset center / align center / Without transcription
+      surtitle: Grid large / Offset center / Align end / Without transcription
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     audio:
       mp3: /audios/t-rex-roar.mp3
@@ -71,7 +71,7 @@ blocks:
       grid: container
       align: center
     heading:
-      surtitle: Grid container / align center / With transcription
+      surtitle: Grid container / Align center / With transcription
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     audio:
       mp3: /audios/t-rex-roar.mp3
@@ -87,7 +87,7 @@ blocks:
       grid: container
       align: end
     heading:
-      surtitle: Grid container / align end / With transcription
+      surtitle: Grid container / Align end / With transcription
       title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     audio:
       mp3: /audios/t-rex-roar.mp3

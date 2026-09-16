@@ -103,7 +103,7 @@ blocks:
       align: center
       theme: accent
     heading:
-      surtitle: Grid medium / Offset center / Align center / theme accent
+      surtitle: Grid medium / Offset center / Align center / Theme accent
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem
@@ -120,7 +120,7 @@ blocks:
       offset: center
       theme: light
     heading:
-      surtitle: Grid large / Offset center / theme light
+      surtitle: Grid large / Offset center / Theme light
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem
@@ -141,7 +141,7 @@ blocks:
       offset: center
       theme: highlight
     heading:
-      surtitle: Grid large / Offset center / theme highlight
+      surtitle: Grid large / Offset center / Theme highlight
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem
@@ -172,7 +172,7 @@ blocks:
       offset: center
       theme: dark
     heading:
-      surtitle: Grid large / Offset center / theme light / Theme dark
+      surtitle: Grid large / Offset center / Theme dark
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem
@@ -194,7 +194,7 @@ blocks:
       offset: center
       theme: neutral
     heading:
-      surtitle: Grid large / Offset center / theme light / Theme neutral
+      surtitle: Grid large / Offset center / Theme neutral
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem
@@ -216,7 +216,7 @@ blocks:
       offset: center
       theme: black
     heading:
-      surtitle: Grid large / Offset center / theme light / Theme black
+      surtitle: Grid large / Offset center / Theme black
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem
@@ -238,7 +238,7 @@ blocks:
       offset: center
       theme: white
     heading:
-      surtitle: Grid large / Offset center / theme light / Theme white
+      surtitle: Grid large / Offset center / Theme white
       title: >-
         Quisque eget magna nec nunc scelerisque posuere nec at eros. Nulla
         placerat ipsum pulvinar mauris lacinia, vel consectetur sem

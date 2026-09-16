@@ -26,7 +26,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand)
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -89,7 +89,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint all / Nav pointer / Pagination true
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Object form, front matter only: the CMS never writes nav nor pagination. Set that site-wide instead with `blocks.comparison.scrollsnap.nav` (pointer) and `blocks.comparison.scrollsnap.pagination` (true) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -151,7 +151,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint lg / Pagination pointer
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Object form, front matter only: the CMS never writes pagination. Set that site-wide instead with `blocks.comparison.scrollsnap.pagination` (pointer) — each key is read on its own, so a block keeps overriding its breakpoint alone."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -211,7 +211,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint none
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, option Never — `ui.scrollsnap: false`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -272,7 +272,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme light
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -333,7 +333,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme highlight
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -394,7 +394,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme accent
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -455,7 +455,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme dark
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -516,7 +516,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme neutral
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -577,7 +577,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme black
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
@@ -638,7 +638,7 @@ blocks:
     heading:
       surtitle: Grid container / 3 items / Breakpoint md (shorthand) / Theme white
       title: Duis nisl odio, blandit vel quam eget
-      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
     items: 
       - title: Lorem ipsum dolor
         text: Vestibulum ex metus, rhoncus non diam vitae.
