@@ -16,3 +16,7 @@ permalinks:
 params:
   docs:
     sidebarmenu: false
+  admin:
+    collections:
+      docs:
+        enable: false
