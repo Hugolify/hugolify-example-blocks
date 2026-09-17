@@ -10,6 +10,7 @@ hero:
   title: Heading / footing
   text: See theming for heading and footing.
   ui:
+    align: center
     theme: light
 blocks:
 

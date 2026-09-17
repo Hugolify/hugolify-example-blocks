@@ -17,5 +17,6 @@ hero:
       blank: true
       link: true
   ui:
+    align: center
     theme: light
 ---
