@@ -12,5 +12,23 @@ hero:
       text: Documentation
       url: https://www.hugolify.io/docs//blocks
   ui:
+    align: center
     theme: light
+
+# Documentation client — hors SEO.
+noIndex: true
+sitemap:
+  disable: true
+outputs:
+  - HTML
+build:
+  list: never
+cascade:
+  noIndex: true
+  sitemap:
+    disable: true
+  outputs:
+    - HTML
+  build:
+    list: local
 ---
