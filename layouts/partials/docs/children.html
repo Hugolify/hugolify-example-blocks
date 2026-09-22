@@ -1,0 +1,14 @@
+{{/*  Overrides hugolify-theme-docs — keeps only the blocks enabled in
+      admin.blocks.enable (see docs/enabled-pages.html).  */}}
+
+{{- $pages := partial "docs/enabled-pages.html" .Pages -}}
+{{- if $pages }}
+  <section>
+    {{- if .Content }}
+      <header class="heading">
+        <h2>{{ i18n "docs.title" }}</h2>
+      </header>
+    {{ end -}}
+    {{ partial "docs/items.html" $pages }}
+  </section>
+{{ end -}}

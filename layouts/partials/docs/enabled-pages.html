@@ -1,0 +1,44 @@
+{{/*  Filters a list of design-system pages against site.Params.admin.blocks.enable,
+      so a project only documents the blocks it actually exposes in the CMS.
+
+      When admin.blocks.enable is not set, every page is returned unchanged.
+
+      Only the direct children of the docs root are filtered: the variants of a
+      block section (grid, carousel, scrollsnap…) are always kept, and so are the
+      pages listed in $always (heading / footing theming).
+
+      The page key is the file base name — the directory name for a section —
+      remapped through $aliases when the doc page and the block type differ.
+
+      Returns a slice of pages.  */}}
+
+{{- $pages := . -}}
+{{- $enabled := site.Params.admin.blocks.enable -}}
+{{- $always := slice "heading-footing" -}}
+{{- $aliases := dict "call-to-action" "cta" -}}
+
+{{- $root := site.GetPage "/docs" -}}
+
+{{- $result := $pages -}}
+{{- if and $enabled $root -}}
+  {{- $result = slice -}}
+  {{- range $pages -}}
+    {{- $keep := true -}}
+    {{- if and .Parent (eq .Parent.RelPermalink $root.RelPermalink) -}}
+      {{- $key := "" -}}
+      {{- with .File -}}
+        {{- $key = .TranslationBaseName -}}
+        {{- if eq $key "_index" -}}
+          {{- $key = path.Base .Dir -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $key = index $aliases $key | default $key -}}
+      {{- $keep = or (in $always $key) (in $enabled $key) -}}
+    {{- end -}}
+    {{- if $keep -}}
+      {{- $result = $result | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $result -}}

@@ -1,0 +1,37 @@
+{{/*  Overrides hugolify-theme-docs — same markup, but the pagination is rebuilt
+      from the filtered sibling list so it never links to a block that is not in
+      admin.blocks.enable (see docs/enabled-pages.html).  */}}
+
+{{- $page := . -}}
+{{- $siblings := partial "docs/enabled-pages.html" .CurrentSection.Pages -}}
+{{- $index := -1 -}}
+{{- range $i, $p := $siblings }}
+  {{- if eq $p.RelPermalink $page.RelPermalink }}{{ $index = $i }}{{ end -}}
+{{- end -}}
+
+{{- $previous := "" -}}
+{{- $next := "" -}}
+{{- if ge $index 0 -}}
+  {{- if gt $index 0 }}{{ $previous = index $siblings (sub $index 1) }}{{ end -}}
+  {{- if lt $index (sub (len $siblings) 1) }}{{ $next = index $siblings (add $index 1) }}{{ end -}}
+{{- end -}}
+
+{{ if or $previous $next }}
+  {{- $sections := lower (i18n (printf "%s.title" .Type)) -}}
+  {{- $section := i18n (printf "%s.title" .Type) 1 -}}
+  {{- $label := i18n "pagination.between" (dict "Section" $sections) -}}
+  <nav role="navigation" aria-label="{{ $label }}" {{- partial "func/SetAnim.html" (dict "element" "pagination") }}>
+    <ul class="pagination-between pagination-between-with-title">
+      {{- with $previous }}
+        <li class="previous">
+          {{ partial "nav/item/previous-next-with-title.html" (dict "item" . "direction" "previous") }}
+        </li>
+      {{- end }}
+      {{- with $next }}
+        <li class="next">
+          {{ partial "nav/item/previous-next-with-title.html" (dict "item" . "direction" "next") }}
+        </li>
+      {{- end }}
+    </ul>
+  </nav>
+{{ end }}

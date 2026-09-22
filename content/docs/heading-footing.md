@@ -2,6 +2,7 @@
 isPage: true
 draft: false
 title: Heading / footing
+slug: heading-footing
 description: See theming for heading and footing
 icon: heading
 weight: 1
