@@ -7,8 +7,9 @@
       block section (grid, carousel, scrollsnap…) are always kept, and so are the
       pages listed in $always (heading / footing theming).
 
-      The page key is the file base name — the directory name for a section —
-      remapped through $aliases when the doc page and the block type differ.
+      The page key is the content base name — the directory name for a section
+      or a page bundle — remapped through $aliases when the doc page and the
+      block type differ.
 
       Returns a slice of pages.  */}}
 
@@ -27,10 +28,7 @@
     {{- if and .Parent (eq .Parent.RelPermalink $root.RelPermalink) -}}
       {{- $key := "" -}}
       {{- with .File -}}
-        {{- $key = .TranslationBaseName -}}
-        {{- if eq $key "_index" -}}
-          {{- $key = path.Base .Dir -}}
-        {{- end -}}
+        {{- $key = .ContentBaseName -}}
       {{- end -}}
       {{- $key = index $aliases $key | default $key -}}
       {{- $keep = or (in $always $key) (in $enabled $key) -}}
