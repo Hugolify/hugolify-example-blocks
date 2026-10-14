@@ -73,7 +73,7 @@ blocks:
       title: Inscrivez-vous à notre newsletter
     form:
       url: "#"
-      button: Je m’inscris à la newsletter
+      submit: Je m’inscris à la newsletter
 
   - type: newsletter
     ui:

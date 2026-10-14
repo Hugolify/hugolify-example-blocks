@@ -9,7 +9,7 @@ weight: 1
 hero:
   surtitle: Blocks
   title: Heading / footing
-  text: See theming for heading and footing.
+  text: See theming for common heading and footing (not a block).
   ui:
     align: center
     theme: light
