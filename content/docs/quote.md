@@ -82,13 +82,14 @@ blocks:
       image:
         src: https://res.cloudinary.com/uncinq/image/upload/v1789480617/christopher-campbell-rDEOVtE7vOs-unsplash_b8tghe.jpg
 
-  # AUTEUR
+  # AUTHOR
   - type: quote
     ui:
+      align: center
       grid: medium
       offset: center
     heading:
-      surtitle: Grid medium / Offset center / Auteur sans photo
+      surtitle: Grid medium / Offset center / Align center / Author without photo
     quote: >-
       Duis nisl odio, blandit vel quam eget, blandit dapibus erat. Nullam
       pretium eleifend lectus, at semper nulla egestas a.
@@ -100,7 +101,23 @@ blocks:
       grid: medium
       offset: center
     heading:
-      surtitle: Grid medium / Offset center / Auteur lié (target _blank)
+      surtitle: Grid medium / Offset center / Author link (target _blank)
+    quote: >-
+      Duis nisl odio, blandit vel quam eget, blandit dapibus erat. Nullam
+      pretium eleifend lectus, at semper nulla egestas a.
+    author:
+      title: Nulla Dapibus
+      text: Nunc sollicitudin semper
+      url: https://www.jeantet.fr
+      image:
+        src: https://res.cloudinary.com/uncinq/image/upload/v1789480617/christopher-campbell-rDEOVtE7vOs-unsplash_b8tghe.jpg
+  - type: quote
+    ui:
+      align: center
+      grid: medium
+      offset: center
+    heading:
+      surtitle: Grid medium / Offset center / Align center / Author link (target _blank)
     quote: >-
       Duis nisl odio, blandit vel quam eget, blandit dapibus erat. Nullam
       pretium eleifend lectus, at semper nulla egestas a.
@@ -197,6 +214,55 @@ blocks:
     author:
       title: Nulla Dapibus
       text: Nunc sollicitudin semper
+
+  - type: quote
+    ui:
+      align: center
+      grid: medium
+      offset: center
+      theme: accent
+    heading:
+      surtitle: Grid medium / Offset center / Align center / Theme accent
+    quote: >-
+      Duis nisl odio, blandit vel quam eget, blandit dapibus erat. Nullam
+      pretium eleifend lectus, at semper nulla egestas a.
+    author:
+      title: Nulla Dapibus
+      text: Nunc sollicitudin semper
+      image:
+        src: https://res.cloudinary.com/uncinq/image/upload/v1789480617/christopher-campbell-rDEOVtE7vOs-unsplash_b8tghe.jpg
+        
+  - type: quote
+    ui:
+      align: end
+      grid: medium
+      offset: center
+      theme: accent
+    heading:
+      surtitle: Grid medium / Offset center / Align end / Theme accent
+    quote: >-
+      Duis nisl odio, blandit vel quam eget, blandit dapibus erat. Nullam
+      pretium eleifend lectus, at semper nulla egestas a.
+    author:
+      title: Nulla Dapibus
+      text: Nunc sollicitudin semper
+
+  - type: quote
+    ui:
+      align: end
+      grid: medium
+      offset: center
+      theme: accent
+    heading:
+      surtitle: Grid medium / Offset center / Align end / Theme accent
+    quote: >-
+      Duis nisl odio, blandit vel quam eget, blandit dapibus erat. Nullam
+      pretium eleifend lectus, at semper nulla egestas a.
+    author:
+      title: Nulla Dapibus
+      text: Nunc sollicitudin semper
+      image:
+        src: https://res.cloudinary.com/uncinq/image/upload/v1789480617/christopher-campbell-rDEOVtE7vOs-unsplash_b8tghe.jpg
 
   - type: quote
     ui:
