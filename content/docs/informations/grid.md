@@ -273,10 +273,9 @@ blocks:
     ui:
       grid: full
       column: 4
-      theme: highlight
     heading:
-      surtitle: Grid full / Column 4 / Theme highlight
-      title: 4 columns with images in dark theme
+      surtitle: Grid full / Column 4 / no Theme 
+      title: 4 columns
       text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
     items:
       - title: Lorem ipsum
@@ -292,13 +291,110 @@ blocks:
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
       - title: Aliquam velit magna
-        text: Donec ut eros sit amet ipsum pulvinar sagittis.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - title: Curabitur non ante purus
-        text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+
+  - type: informations
+    ui:
+      grid: full
+      column: 4
+      theme: light
+    heading:
+      surtitle: Grid full / Column 4 / Theme light
+      title: 4 columns
+      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+    items:
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+      - text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+        title: Faucibus maximus nunc
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Aliquam velit magna
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+
+  - type: informations
+    ui:
+      grid: full
+      column: 4
+      theme: accent
+    heading:
+      surtitle: Grid full / Column 4 / Theme accent
+      title: 4 columns
+      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+    items:
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+      - text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+        title: Faucibus maximus nunc
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Aliquam velit magna
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+
+  - type: informations
+    ui:
+      grid: full
+      column: 4
+      theme: highlight
+    heading:
+      surtitle: Grid full / Column 4 / Theme highlight
+      title: 4 columns
+      text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+    items:
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+      - text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
+        title: Faucibus maximus nunc
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Aliquam velit magna
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
 
   - type: informations
     ui:
@@ -307,7 +403,7 @@ blocks:
       theme: neutral
     heading:
       surtitle: Grid full / Column 4 / Theme neutral
-      title: 4 columns with images in dark theme
+      title: 4 columns
       text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
     items:
       - title: Lorem ipsum
@@ -323,13 +419,14 @@ blocks:
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
       - title: Aliquam velit magna
-        text: Donec ut eros sit amet ipsum pulvinar sagittis.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - title: Curabitur non ante purus
-        text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
 
   - type: informations
     ui:
@@ -338,7 +435,7 @@ blocks:
       theme: black
     heading:
       surtitle: Grid full / Column 4 / Theme black
-      title: 4 columns with images in dark theme
+      title: 4 columns
       text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
     items:
       - title: Lorem ipsum
@@ -354,13 +451,14 @@ blocks:
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
       - title: Aliquam velit magna
-        text: Donec ut eros sit amet ipsum pulvinar sagittis.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - title: Curabitur non ante purus
-        text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
 
   - type: informations
     ui:
@@ -369,7 +467,7 @@ blocks:
       theme: white
     heading:
       surtitle: Grid full / Column 4 / Theme white
-      title: 4 columns with images in dark theme
+      title: 4 columns
       text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc
     items:
       - title: Lorem ipsum
@@ -385,11 +483,12 @@ blocks:
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
       - title: Aliquam velit magna
-        text: Donec ut eros sit amet ipsum pulvinar sagittis.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-      - title: Curabitur non ante purus
-        text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
 ---

@@ -104,6 +104,30 @@ blocks:
 
   - type: comparison
     ui:
+      grid: container
+      align: center
+    heading:
+      surtitle: Grid container / align center / 2 items
+      title: Duis nisl odio, blandit vel quam eget
+      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+    items: 
+      - title: Lorem ipsum dolor
+        text: Vestibulum ex metus, rhoncus non diam vitae.
+        arguments:
+          - text: Lorem ipsum dolor
+          - text: Praesent condimentum nibh erat
+          - text: Vestibulum ex metus
+          - text: Consectetur adipiscing elit
+      - title: Aenean commodo
+        text: Vestibulum ex metus, rhoncus non diam vitae.
+        arguments:
+          - text: Lorem ipsum dolor
+          - text: Praesent condimentum nibh erat
+          - text: Vestibulum ex metus
+          - text: Consectetur adipiscing elit
+
+  - type: comparison
+    ui:
       grid: medium
       offset: end
       theme: dark
