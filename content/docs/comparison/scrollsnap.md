@@ -142,6 +142,70 @@ blocks:
         cta:
           url: "#"
           text: CTA
+      - title: Aenean commodo
+        text: Vestibulum ex metus, rhoncus non diam vitae.
+        offer:
+          price: 199
+        arguments:
+          - text: Lorem ipsum dolor
+            icon: link
+          - text: Praesent condimentum nibh erat
+            icon: building
+          - text: Vestibulum ex metus
+            icon: key
+          - text: Consectetur adipiscing elit
+            icon: tree-pine
+        cta:
+          url: "#"
+          text: CTA
+      - title: Aenean commodo
+        text: Vestibulum ex metus, rhoncus non diam vitae.
+        offer:
+          price: 199
+        arguments:
+          - text: Lorem ipsum dolor
+            icon: link
+          - text: Praesent condimentum nibh erat
+            icon: building
+          - text: Vestibulum ex metus
+            icon: key
+          - text: Consectetur adipiscing elit
+            icon: tree-pine
+        cta:
+          url: "#"
+          text: CTA
+      - title: Aenean commodo
+        text: Vestibulum ex metus, rhoncus non diam vitae.
+        offer:
+          price: 199
+        arguments:
+          - text: Lorem ipsum dolor
+            icon: link
+          - text: Praesent condimentum nibh erat
+            icon: building
+          - text: Vestibulum ex metus
+            icon: key
+          - text: Consectetur adipiscing elit
+            icon: tree-pine
+        cta:
+          url: "#"
+          text: CTA
+      - title: Aenean commodo
+        text: Vestibulum ex metus, rhoncus non diam vitae.
+        offer:
+          price: 199
+        arguments:
+          - text: Lorem ipsum dolor
+            icon: link
+          - text: Praesent condimentum nibh erat
+            icon: building
+          - text: Vestibulum ex metus
+            icon: key
+          - text: Consectetur adipiscing elit
+            icon: tree-pine
+        cta:
+          url: "#"
+          text: CTA
 
   - type: comparison
     ui:

@@ -104,8 +104,8 @@ blocks:
 
   - type: comparison
     ui:
-      grid: container
       align: center
+      grid: container
     heading:
       surtitle: Grid container / align center / 2 items
       title: Duis nisl odio, blandit vel quam eget
@@ -128,11 +128,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: medium
-      offset: end
-      theme: dark
+      align: end
+      grid: container
     heading:
-      surtitle: Grid medium / Offset end / Theme dark
+      surtitle: Grid container / align end
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -153,10 +152,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: full
+      grid: container
       theme: accent
     heading:
-      surtitle: Grid full / Theme accent
+      surtitle: Grid container / Theme accent
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -169,6 +168,7 @@ blocks:
           - text: Consectetur adipiscing elit
       - title: Aenean commodo
         text: Vestibulum ex metus, rhoncus non diam vitae.
+        badge: Recommended
         arguments:
           - text: Lorem ipsum dolor
           - text: Praesent condimentum nibh erat
@@ -184,10 +184,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: full
+      grid: container
       theme: light
     heading:
-      surtitle: Grid full / Theme light
+      surtitle: Grid container / Theme light
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -200,6 +200,7 @@ blocks:
           - text: Consectetur adipiscing elit
       - title: Aenean commodo
         text: Vestibulum ex metus, rhoncus non diam vitae.
+        badge: Recommended
         arguments:
           - text: Lorem ipsum dolor
           - text: Praesent condimentum nibh erat
@@ -215,10 +216,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: full
+      grid: container
       theme: highlight
     heading:
-      surtitle: Grid full / Theme highlight
+      surtitle: Grid container / Theme highlight
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -231,6 +232,7 @@ blocks:
           - text: Consectetur adipiscing elit
       - title: Aenean commodo
         text: Vestibulum ex metus, rhoncus non diam vitae.
+        badge: Recommended
         arguments:
           - text: Lorem ipsum dolor
           - text: Praesent condimentum nibh erat
@@ -246,10 +248,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: full
+      grid: container
       theme: neutral
     heading:
-      surtitle: Grid full / Theme neutral
+      surtitle: Grid container / Theme neutral
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -262,6 +264,7 @@ blocks:
           - text: Consectetur adipiscing elit
       - title: Aenean commodo
         text: Vestibulum ex metus, rhoncus non diam vitae.
+        badge: Recommended
         arguments:
           - text: Lorem ipsum dolor
           - text: Praesent condimentum nibh erat
@@ -277,10 +280,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: full
+      grid: container
       theme: black
     heading:
-      surtitle: Grid full / Theme black
+      surtitle: Grid container / Theme black
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -293,6 +296,7 @@ blocks:
           - text: Consectetur adipiscing elit
       - title: Aenean commodo
         text: Vestibulum ex metus, rhoncus non diam vitae.
+        badge: Recommended
         arguments:
           - text: Lorem ipsum dolor
           - text: Praesent condimentum nibh erat
@@ -308,10 +312,10 @@ blocks:
 
   - type: comparison
     ui:
-      grid: full
+      grid: container
       theme: white
     heading:
-      surtitle: Grid full / Theme white
+      surtitle: Grid container / Theme white
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
     items: 
@@ -324,6 +328,7 @@ blocks:
           - text: Consectetur adipiscing elit
       - title: Aenean commodo
         text: Vestibulum ex metus, rhoncus non diam vitae.
+        badge: Recommended
         arguments:
           - text: Lorem ipsum dolor
           - text: Praesent condimentum nibh erat
