@@ -86,6 +86,51 @@ blocks:
 
   - type: pushes
     ui:
+      align: center
+      grid: container
+      column: 1
+    heading:
+      surtitle: Grid container / Column 1 / Card / Item offset center / Align center
+      title: Lorem ipsum dolor sit amet.
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - ui:
+          card: true
+          offset: center
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  - type: pushes
+    ui:
+      align: center
+      grid: container
+      column: 1
+    heading:
+      surtitle: Grid container / Column 1 / Card / Item offset center / Align center
+      title: Lorem ipsum dolor sit amet.
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - ui:
+          align: center
+          card: true
+          offset: center
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  - type: pushes
+    ui:
       grid: medium
       offset: center
       column: 1
