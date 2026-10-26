@@ -25,6 +25,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand)
 
@@ -37,6 +38,7 @@ blocks:
         pagination: true
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint all / Nav pointer / Pagination true
 
@@ -48,6 +50,7 @@ blocks:
         pagination: pointer
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint lg / Pagination pointer
 
@@ -58,6 +61,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme light
 
@@ -68,6 +72,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme highlight
 
@@ -78,6 +83,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme accent
 
@@ -88,6 +94,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme dark
 
@@ -98,6 +105,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme neutral
 
@@ -108,6 +116,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme black
 
@@ -118,6 +127,7 @@ blocks:
       scrollsnap: md
       grid: container
     section: posts
+    limit: 8
     heading:
       surtitle: Grid container / Posts / Breakpoint md (shorthand) / Theme white
       text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
