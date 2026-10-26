@@ -32,6 +32,27 @@ blocks:
       text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone — `ui.scrollsnap: md`."
   - type: latest
     ui:
+      scrollsnap: all
+      grid: container
+    section: posts
+    limit: 8
+    heading:
+      surtitle: Grid container / Posts / Breakpoint all (shorthand)
+
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone (`ui.scrollsnap: all`)."
+  - type: latest
+    ui:
+      theme: dark
+      scrollsnap: all
+      grid: container
+    section: posts
+    limit: 8
+    heading:
+      surtitle: Grid container / Posts / Breakpoint all (shorthand) / Theme dark
+
+      text: "Editable in the CMS with the « Horizontal scroll » select, which writes the breakpoint alone (`ui.scrollsnap: all`)."
+  - type: latest
+    ui:
       scrollsnap:
         breakpoint: all
         nav: pointer
