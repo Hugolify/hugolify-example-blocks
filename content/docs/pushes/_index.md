@@ -2,8 +2,6 @@
 isPage: true
 draft: false
 title: Pushes
-aliases:
-  - /blocks/push
 description: Add some cards push with image and button in column or carousel.
 icon: captions
 hero:
